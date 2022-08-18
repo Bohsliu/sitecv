@@ -33,6 +33,10 @@ li {
     display: block;
     color: rgb(0, 66, 152);
 }
+.over  {
+    text-align: justify;
+    font-style: italic; 
+} 
 
 .social {
 background-color: rgba(231, 245, 255, 0.933);

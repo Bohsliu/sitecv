@@ -22,7 +22,8 @@ font-family: 'Times', 'Gill Sans MT', Times New Roman, 'Trebuchet MS', normal sa
 
 a {
     text-decoration: none;
-    color: rgb(7, 12, 84);
+    font-style: oblique;
+    color: rgb(15, 69, 197);
     
 }
 

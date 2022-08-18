@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(232, 246, 255);
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(232, 246, 255);
+
+}
+
+    .box-left {width: 30%; height: 1000px; float:left; text-align: left;
+         background-color:  rgb(220, 237, 255); padding: 0px, 0px, 0px, 10px; 
+         color: rgb(7, 12, 84);
+font-size: 14px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+    }
+    .box-right {width:65%; height: auto; float:right; text-align: left;
+        color: rgb(7, 12, 84);
+font-size: 15px;
+font-family: 'Times', 'Gill Sans MT', Times New Roman, 'Trebuchet MS', normal sans-serif;
+    }
+
+a {
+    text-decoration: none;
+    color: rgb(21, 146, 214);
+}
+
+li {
+    display: block;
+  }
+
+.info {
+    display: block;
+    color: rgb(0, 66, 152);
+}
+
+.social {
+background-color: rgba(231, 245, 255, 0.933);
+text-align: center;
+
+}
+
+.block-left{width:15%; overflow:auto; float:left; text-align: left}
+.block-right{width:60%; overflow:auto; float:right; text-align: left}
+
+
+.form-group lebel{
+    display: block;
+font-size: 14px;
+}
+.form-group input,
+.form-group textarea{
+    width: 75%;
+    background-color: rgb(232, 246, 255);
+    box-sizing: border-box;
+    border: none;
+    border-bottom:1px solid rgb(241, 250, 255);
+    
+}
+.Books {
+    display: block; 
+}
+.btn{
+    
+    background:rgb(236, 245, 254);;
+    color: rgb(7, 12, 84);
+    padding: 20px, 30px;
+    cursor: pointer;
+    width: 15%;
+    
+}
+.btn:hover{
+    opacity:0.9;
+}

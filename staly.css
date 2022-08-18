@@ -8,21 +8,22 @@ body {
 
 }
 
-    .box-left {width: 30%; height: 1800px; float:left; text-align: left;
+    .box-left {width: 30%; height: 1700px; float:left; text-align: left;
          background-color:  rgb(220, 237, 255); padding: 0px, 0px, 0px, 10px; 
          color: rgb(7, 12, 84);
 font-size: 14px;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
     }
-    .box-right {width:65%; height: auto; float:right; text-align: left;
+    .box-right {width:65%; height: auto; float:right; text-align: justify;
         color: rgb(7, 12, 84);
-font-size: 15px;
+font-size: 14px;
 font-family: 'Times', 'Gill Sans MT', Times New Roman, 'Trebuchet MS', normal sans-serif;
     }
 
 a {
     text-decoration: none;
-    color: rgb(21, 146, 214);
+    color: rgb(7, 12, 84);
+    
 }
 
 li {
@@ -33,23 +34,15 @@ li {
     display: block;
     color: rgb(0, 66, 152);
 }
-.over  {
-    text-align: justify;
-    font-style: italic; 
-} 
 
 .social {
 background-color: rgba(231, 245, 255, 0.933);
-text-align: center;
+text-align: left;
 
 }
 
-.block-left{width:15%; overflow:auto; float:left; text-align: left}
-.block-right{width:60%; overflow:auto; float:right; text-align: left}
-
 
 .form-group lebel{
-    display: block;
 font-size: 14px;
 }
 .form-group input,
@@ -76,3 +69,7 @@ font-size: 14px;
 .btn:hover{
     opacity:0.9;
 }
+.over  {
+    text-align: justify;
+    font-style: italic; 
+} 

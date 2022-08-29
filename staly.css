@@ -2,49 +2,54 @@ body {
     background-color: rgb(232, 246, 255);
 }
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     background-color: rgb(232, 246, 255);
-
 }
-
-    .box-left {width: 30%; height: 1200px; float:left; text-align: left;
-         background-color:  rgb(220, 237, 255); padding: 0px, 0px, 0px, 10px; 
-         color: rgb(7, 12, 84);
-font-size: 14px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
-    }
-    .box-right {width:65%; height: auto; float:right; text-align: justify;
-        color: rgb(7, 12, 84);
-font-size: 14px;
-font-family: 'Times', 'Gill Sans MT', Times New Roman, 'Trebuchet MS', normal sans-serif;
-    }
-
+.box-left {
+    flex: 0.27;
+    text-align: left;
+    background-color:  rgb(220, 237, 255);
+    color: rgb(7, 12, 84);
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+    padding-left: 40px;
+}
+.box-left ul {
+    padding: 0;
+}
+.box-right {
+    flex: 0.70;
+    margin-left: 30px;
+    text-align: justify;
+    color: rgb(7, 12, 84);
+    font-size: 15px;
+    font-family: 'Times', 'Gill Sans MT', Times New Roman, 'Trebuchet MS', normal sans-serif;
+}
+table {
+    border: 2px solid;
+}
 a {
     text-decoration: none;
     font-style: oblique;
-    color: rgb(15, 69, 197);
-    
+    color: rgb(15, 69, 197);   
 }
-
+h2 {
+    line-height:0.13em;
+} 
 li {
     display: block;
-  }
-
+}
 .info {
     display: block;
     color: rgb(0, 66, 152);
 }
-
 .social {
-background-color: rgba(231, 245, 255, 0.933);
-text-align: left;
-
+    background-color: rgba(231, 245, 255, 0.933);
+    text-align: left;
 }
-
-
-.form-group lebel{
-font-size: 14px;
+.form-group label{
+    font-size: 14px;
 }
 .form-group input,
 .form-group textarea{
@@ -53,19 +58,16 @@ font-size: 14px;
     box-sizing: border-box;
     border: none;
     border-bottom:1px solid rgb(241, 250, 255);
-    
 }
 .Books {
     display: block; 
 }
 .btn{
-    
     background:rgb(236, 245, 254);;
     color: rgb(7, 12, 84);
-    padding: 20px, 30px;
+    padding: 20px 30px;
     cursor: pointer;
     width: 15%;
-    
 }
 .btn:hover{
     opacity:0.9;
@@ -73,4 +75,10 @@ font-size: 14px;
 .over  {
     text-align: justify;
     font-style: italic; 
-} 
+}
+.box-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
